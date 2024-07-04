@@ -1,0 +1,281 @@
+/*
+Tommy Yasi
+toya1800
+toya1800@student.miun.se
+*/
+
+/*
+(< 480)
+Support for screen and print 
+*/
+@media print and (max-width: 479px),
+screen and (max-width: 479px) {
+    body {
+        max-width: 960px;
+        margin: auto;
+        background-image: url("../img/airplane-sky.png");
+        background-repeat: no-repeat;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    footer {
+        position: relative;
+        border-top: 3px solid black;
+        padding-top: 10px;
+        background: white;
+        width: 960px;
+        margin: auto;
+    }
+
+    section.contact-info {
+        background-color: red;
+        text-align: center;
+    }
+
+    div.column img {
+        width: 170px;
+        height: 140px;
+    }
+
+    div.box {
+        display: inline-block;
+        flex-direction: row;
+        padding-top: 30px;
+        position: relative;
+    }
+
+    img.extra {
+        width: 400px;
+        height: 260px;
+        padding-left: 110px;
+        padding-bottom: 20px;
+    }
+
+    div.full {
+        display: flex;
+        flex-direction: row;
+    }
+
+    section {
+        margin-top: 40px;
+    }
+
+    #info {
+        text-align: center;
+    }
+}
+
+/*
+( > 480 < 1024)
+Support for screen and print 
+*/
+@media print and (max-width: 1024px) and (min-width: 480px),
+screen and (max-width: 1024px) and (min-width: 480px) {
+    body {
+        max-width: 960px;
+        margin: auto;
+        background-image: url("../img/airplane-sky.png");
+        background-repeat: no-repeat;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    footer {
+        position: relative;
+        border-top: 3px solid black;
+        padding-top: 10px;
+        background: white;
+        width: 960px;
+        margin: auto;
+    }
+
+    section.contact-info {
+        background-color: blue;
+        text-align: center;
+    }
+
+    div.column img {
+        width: 170px;
+        height: 140px;
+    }
+
+    div.box {
+        display: inline-block;
+        flex-direction: row;
+        padding-top: 30px;
+        position: relative;
+    }
+
+    img.extra {
+        width: 400px;
+        height: 260px;
+        padding-left: 110px;
+        padding-bottom: 20px;
+    }
+
+    div.full {
+        display: flex;
+        flex-direction: row;
+    }
+
+    section {
+        margin-top: 40px;
+    }
+
+     #info {
+        text-align: center;
+    }
+}
+
+/*
+(> 1024)
+Support for screen and print 
+*/
+@media print and (min-width: 1025px),
+screen and (min-width: 1025px) {
+    body {
+        max-width: 960px;
+        margin: auto;
+        background-image: url("../img/airplane-sky.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    img.main {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    footer {
+        position: relative;
+        border-top: 3px solid black;
+        padding-top: 10px;
+        background: white;
+        width: 960px;
+        margin: auto;
+        bottom: 0;
+    }
+
+    section.contact-info {
+        background-color: green;
+        text-align: center;
+    }
+
+    div.column img {
+        width: 170px;
+        height: 140px;
+    }
+
+    div.box {
+        display: inline-block;
+        flex-direction: row;
+        padding-top: 30px;
+        position: relative;
+    }
+
+   img.expanded {
+        width: 450px;
+        height: 290px;
+        padding-left: 110px;
+        padding-bottom: 20px;
+    }
+
+   div.full {
+       display: flex;
+       flex-direction: row;
+   }
+
+   section {
+       margin-top: 40px;
+   }
+
+   #info {
+       text-align: center;
+   }
+
+    div.mainBox {
+        width: 100%;
+        display: flex;
+    }
+    div.mainBox {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+   div.left {
+       display: inline-block;
+   }
+    div.right {
+        display: inline-block;
+    }
+
+    table.flightTable {
+        padding-left: 170px;
+        width: 450px;
+        height: 450px;
+    }
+
+    header {
+        margin-bottom: 20px;
+    }
+
+    p.tableHeader {
+        font-style: italic;
+        font-size: 30px;
+        padding-left: 65px;
+    }
+
+    td.cell{
+        text-align: center;
+    }
+
+    #message {
+        color: red;
+        font-size: 16px;
+    }
+
+    #card {
+        outline-style: solid;
+        outline-width: thick;
+        margin-bottom: 30px;
+        background-color: azure;
+    }
+
+    #boarding_header {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #boarding_ticket {
+        font-size: 25px;
+        font-style: italic;
+        text-align: center;
+        margin-top: -10px;
+    }
+}

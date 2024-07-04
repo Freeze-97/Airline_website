@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<!--
+Tommy Yasi
+toya1800
+toya1800@student.miun.se
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking</title>
+    <!-- link style sheet -->
+    <link rel="stylesheet"
+          type = "text/css"
+          href="css/style.css" />
+    <script src="js/main.js"></script>
+</head>
+<body>
+<main>
+    <header>
+        <img class="main" src="img/cartoon-plane.jpg" alt = "Cartoon plane"/>
+        <h1>Welcome!</h1>
+        <nav>
+            <h3>Links:</h3>
+            <a href="index.html">Index</a> <br/>
+            <a href="booking.html">Booking</a> <br/>
+            <a href="contact.html">Contact</a> <br/>
+            <a href="employees.html">Employees</a> <br/>
+            <a href="ourfleet.html">Ourfleet</a> <br/>
+        </nav>
+    </header>
+
+    <div class="mainBox">
+        <div class="left">
+            <p><label>First name: <br/>
+            <input id="nameInput" type="text">
+            </label></p>
+
+            <p><label>Last name: <br/>
+                <input id="lastNameInput" type="text">
+            </label></p>
+
+            <p><label>Security number: <br/>
+                <input id="securityNumberInput" type="number">
+            </label></p>
+
+            <p><label>Seat number (1-18): <br/>
+                <input id="seatNumberInput" type="number" min="1" max="18">
+            </label></p>
+
+            <p><label> Flight class: <br/>
+                <select id="flightClass">
+                        <option value="Business Class">Business class</option>
+                        <option value="Economic class">Economic class</option>
+                    </select>
+            </label></p>
+
+            <p>
+                <input id="submit" type="submit"> <input id="reset" type="reset">
+            </p>
+
+            <p id="message"></p>
+        </div>
+
+        <div class="right">
+            <p class="tableHeader">1-6: Business Class, 7-18: Economic Class </p>
+            <table class="flightTable">
+                <tr>
+                    <td class="cell" id="1"></td>
+                    <td class="cell" id="2"></td>
+                    <td class="cell" id="3"></td>
+                </tr>
+
+                <tr>
+                    <td class="cell" id="4"></td>
+                    <td class="cell" id="5"></td>
+                    <td class="cell" id="6"></td>
+                </tr>
+
+                <tr>
+                    <td class="cell" id="7"></td>
+                    <td class="cell" id="8"></td>
+                    <td class="cell" id="9"></td>
+                </tr>
+
+                <tr>
+                    <td class="cell" id="10"></td>
+                    <td  class="cell" id="11"></td>
+                    <td class="cell" id="12"></td>
+                </tr>
+
+                <tr>
+                    <td class="cell" id="13"></td>
+                    <td class="cell" id="14"></td>
+                    <td class="cell" id="15"></td>
+                </tr>
+
+                <tr>
+                    <td class="cell" id="16"></td>
+                    <td class="cell" id="17"></td>
+                    <td class="cell" id="18"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</main>
+<footer>
+    <h6>&copy; 2019-2019 US Airways. All Rights Reserved</h6>
+    Company: US Airways<br>
+    Country: United States of America
+    <address>
+        Contact: <a href="mailto:us-airways@airways.com">us-airways@airways.com</a>
+    </address>
+</footer>
+</body>
+</html>
